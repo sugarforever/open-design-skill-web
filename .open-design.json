@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "designSystem": null,
+  "skill": {
+    "slug": "kami-landing",
+    "path": "design-templates/kami-landing",
+    "kind": "design-template",
+    "mode": "prototype"
+  },
+  "boundAt": "2026-05-20T00:00:00Z"
+}
