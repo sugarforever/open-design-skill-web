@@ -59,7 +59,7 @@ a:hover { color: var(--brand-light); }
 .eyebrow-row .lang { display: inline-flex; gap: 16px; }
 .eyebrow-row .lang a { color: var(--stone); border-bottom: none; }
 .eyebrow-row .lang .active { color: var(--brand); }
-.eyebrow-row .meta { display: inline-flex; gap: 22px; font-variant-numeric: tabular-nums; }
+.eyebrow-row .meta { display: inline-flex; gap: 22px; font-variant-numeric: tabular-nums; flex-wrap: wrap; justify-content: flex-end; }
 .eyebrow-row .meta b { color: var(--near-black); font-weight: 500; }
 
 /* hero */
@@ -308,6 +308,7 @@ a:hover { color: var(--brand-light); }
     </div>
     <div class='meta'>
       <span><b>Agent Skill</b> · v1</span>
+      <span>Built on <a href='https://github.com/nexu-io/open-design'>nexu-io/open-design</a></span>
       <span>Edition <b>MMXXVI</b></span>
       <span>MIT</span>
     </div>
@@ -331,7 +332,7 @@ a:hover { color: var(--brand-light); }
     <span class='label'>Manifesto · Nº 01</span>
     <div>
       <p class='body'>
-        Design systems should live where the work happens — inside the agent writing your decks, your landing pages, your dashboards. Open Design Skill brings the full Open Design catalogue into any agent session. <strong>Pick a brand. Pick a template. Layer the universal craft rules.</strong> The same prompt composition Open Design's daemon does — without needing the daemon to run.
+        Design systems should live where the work happens — inside the agent writing your decks, your landing pages, your dashboards. Open Design Skill brings the full <a href='https://github.com/nexu-io/open-design'>Open Design</a> catalogue into any agent session. <strong>Pick a brand. Pick a template. Layer the universal craft rules.</strong> The same prompt composition Open Design's daemon does — without needing the daemon to run.
       </p>
       <div class='signature'>
         — Maintained by sugarforever
@@ -380,7 +381,7 @@ a:hover { color: var(--brand-light); }
       </div>
       <div class='body'>
         <p>
-          Open Design Skill is a <strong>thin wrapper</strong> around the Open Design catalogue. It lets your agent pick a brand spec plus a template once per project, layer in the craft rules that template opts into, and follow the resulting composed workflow — the same prompt composition Open Design's daemon does, without needing the daemon to be running.
+          Open Design Skill is a <strong>thin wrapper</strong> around <a href='https://github.com/nexu-io/open-design'>Open Design</a> (<code>nexu-io/open-design</code>) — the open-source catalogue of 151 brand specs, 110 rendering templates, and 11 craft references. It lets your agent pick a brand spec plus a template once per project, layer in the craft rules that template opts into, and follow the resulting composed workflow — the same prompt composition Open Design's daemon does, without needing the daemon to be running.
         </p>
         <ul class='dash'>
           <li>Triggered by phrases like <code>make me a deck</code>, <code>apply BMW brand</code>, <code>dashboard with Stripe</code>, <code>set up a design system</code>.</li>
